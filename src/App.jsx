@@ -20,7 +20,7 @@ function App() {
 
       const options = {
         method: 'GET',
-        url: 'http://localhost:8000/data',
+        url: 'https://fastidious-figolla-af0661.netlify.app/data',
         params: { q: searchQuery }   
       };
 
