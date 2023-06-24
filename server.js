@@ -1,4 +1,4 @@
-const port = 8000
+// const port = 8000
 const express = require(`express`)
 const cors = require("cors")
 const axios = require("axios")
@@ -32,4 +32,4 @@ app.get('/data', (req, res) => {
 
 } )
 
-app.listen(8000, () => console.log(`server is runing`))
+app.listen(process.env.PORT, () => console.log(`server is runing`))
