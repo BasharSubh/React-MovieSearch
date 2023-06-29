@@ -20,7 +20,7 @@ function App() {
 
       const options = {
         method: 'GET',
-        url: 'https://fastidious-figolla-af0661.netlify.app/data',
+        url: 'https://react-moviesearch.onrender.com/data',
         params: { q: searchQuery }   
       };
 
